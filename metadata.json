@@ -1,0 +1,7 @@
+{
+  "name": "Tech POS",
+  "description": "Sistema de Punto de Venta de alto rendimiento para Linux. Tecnología que impulsa tu negocio.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
