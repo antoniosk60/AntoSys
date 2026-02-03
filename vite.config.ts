@@ -8,10 +8,10 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          ui: ['@google/genai', 'some-other-large-lib'],
+          google: ['@google/genai'],
         }
       }
     },
-    chunkSizeWarningLimit: 1000, // Aumentar límite si es necesario
+    chunkSizeWarningLimit: 1000,
   }
 })
